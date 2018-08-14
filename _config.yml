@@ -19,11 +19,11 @@ sidebar-avatar: /img/yxm.jpg      # use absolute URL, seeing it's used in both `
 # SNS settings
 RSS: false
 weibo_username:     muyitianmo
-zhihu_username:     lebronyxm
+#zhihu_username:     lebronyxm
 github_username:    lebronyxm
-facebook_username:  xuemengyang
+facebook_username:  muyitianmo
 #jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+twitter_username:   lebronyxm
 
 
 
