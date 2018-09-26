@@ -30,7 +30,6 @@ def EMD_loss(y_true, y_pred):
     return K.mean(samplewise_emd)
 ```
 该文的network framework也比较简单，在imagenet的预训练网络上稍作修改即可。如下图所示：
-         ![framework](https://raw.githubusercontent.com/lebronyxm/lebronyxm.github.io/master/img/nima-framework.png)
           ![framework](https://github.com/lebronyxm/lebronyxm.github.io/raw/master/img/nima-framework.png)
 中间的网络可以是inception这些较大的，也可以是mobilenet这些小巧的。注意原始网络去掉最后一层后，加一个dropout，然后再接10类的FC layer。
 ```
