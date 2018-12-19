@@ -17,7 +17,7 @@ tags:
 
 ## 正文
 
-俗语云：一看脸蛋二看腰，三维曲线硬指标。 又云：美不美，先看腿，骚不骚，再看腰。。。等等，好像跑偏了。。。But the point is: 我们对一个事物美丑与否的评价是基于一些指标的，或是主管，或是可观，都会以一些feature为基准数据。图像的精美度，可以分为两大类，technical和aesthetic。NIMA是一个同时兼顾二者的方法。
+俗语云：一看脸蛋二看腰，三维曲线硬指标。 又云：美不美，先看腿，骚不骚，再看腰。。。等等，好像跑偏了。。。But the point is: 我们对一个事物美丑与否的评价是基于一些指标的，或是主观，或是客观，都会以一些feature为基准数据。图像的精美度，可以分为两大类，technical和aesthetic。NIMA是一个同时兼顾二者的方法。
     
 NIMA方法很简单，核心是loss的改进。EMD（推土机距离EMD is defined as the minimum cost to move the mass of one distribution to another）loss function。这样从一个分类问题变成一个分布预估的问题。
 
