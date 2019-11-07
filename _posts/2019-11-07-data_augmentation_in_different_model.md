@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      ctr模型和相关性模型里的数据增强(样本采样、加权、构造)
-subtitle:   从线上系统探探正负样本对模型的影响
+subtitle:   从线上系统探讨正负样本对模型的影响
 date:       2019-11-07
 author:     Yang xuemeng
 header-img: img/post-bg-re-vs-ng2.jpg
