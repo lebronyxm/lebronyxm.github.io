@@ -1,0 +1,8 @@
+·前言
+
+去年在跨模态检索/匹配 (cross-modal retrieval/matching) 方向开展了一些研究与应用，感觉比较有意思，所以想写点东西记录一下。这个研究方向并不是一个很"干净"的概念，它可以与 representation learning、contrastive learning、unsupervised leraning 等等概念交叉联系。并没有时间和能力写综述，思来想去就以研究较多的图文跨模态检索为切入点来介绍下相关工作。
+
+本专题计划分3个部分介绍图文跨模态检索的一些工作与思考。第一篇将侧重 "multi-modal" 和 "application", 介绍相关概念与研究背景；第二、三篇会侧重"algorithm" 介绍这个方向研究的技术路线，其中第二篇介绍基于 GAN 的追求公共子空间的 cross-modal 检索；第三篇则从 modal 抽象成更一般的 domain，并且将多域扩展到单域，总结分析单/多域匹配问题，主要介绍基于 contrastive learning / instances discrimination的研究思路。专题重点将会在第3篇，可能会用视频的方式介绍。我在实际工作中分别使用过 GAN 和 instance discrimination 这2种思路，近期结合二者尝试了综合模型效果提升明显。
+
+完整内容详见下方文章链接，欢迎关注公众号：进击的AI人 
+https://mp.weixin.qq.com/s/Rz-ckkVSgcLnuT2xQIkSTQ
